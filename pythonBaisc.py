@@ -1,6 +1,7 @@
 def main():
 	# pyPrint()
 	# pyDataType()    #TODO: crud on data type - https://www.programiz.com/python-programming/list
+	pyIterator()
 	# pyFunction()
 	# pyClass()
 	# pyModule()
@@ -81,6 +82,16 @@ def pyDataType():
 	tupleDT()
 	setDT()  
 	dictDT()
+
+def pyIterator():
+	l = [1, 2, 3]
+	# filer 
+	print(list(filter(lambda x: x%2==0, l)))
+	# map 
+	print(list(map(str, l)))
+	# reduce 
+	from functools import reduce 
+	print(reduce(lambda x,y: x*y, l))
 
 # FUNCTION 
 def pyFunction():
