@@ -46,6 +46,13 @@ def pyDataType():
 		lst2 = list('dheeraj')
 		print(lst1)
 		print(lst2)
+		
+		#	delete
+		d = [4, 5, 6, 7, 8, 9, 8, 8, 7]
+		d.pop(3) # remove 4 element which is 7 and return back to user 7
+		del d[1] # delete 2 element which is 5 
+		d.remove(8) # remove first occurrence of 8
+		
 	
 	def tupleDT():
 		print('\nTUPLE')
