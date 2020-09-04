@@ -82,6 +82,9 @@ def pyDataType():
 		dct2 = dict()
 		print(dct1)
 		print(dct2)
+		
+# 		if dict1.has_key("age"): in python2
+# 		if "age" in dict1: in python 3
 
 	numberDT()
 	stringDT()
