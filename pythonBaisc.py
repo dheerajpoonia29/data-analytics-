@@ -40,6 +40,10 @@ def pyDataType():
 		print(sss, type(sss))
 	
 	def listDT():
+		'''
+		mutable (change value by index)
+		ordered collection of item (value we put is print in same order)
+		'''
 		print('\nLIST')
 
 		lst1 = ['dheearj', 21]
@@ -55,6 +59,10 @@ def pyDataType():
 		
 	
 	def tupleDT():
+		'''
+		immutable (change value by index)
+		ordered collection of item (value we put is print in same order)
+		'''
 		print('\nTUPLE')
 
 		tp1 = ('dheeraj', 21)
@@ -63,16 +71,26 @@ def pyDataType():
 		print(tp2)
 
 	def setDT():
+		'''
+		mutable (change value by index)
+		unordered collection of item (value we put is print in sorted order)		
+		'''
 		print('\nSET')
-
 		st1 = ('dheeraj', 21)
 		st2 = set('dheeraj')
+		#or 
+		st2 = {'d','e','e','r','a','j'}
 		print(st1)
 		print(st2)
 
 	def dictDT():
+		'''
+		mutable (change value by index)
+		ordered (value we put is print in same order)
+		key:pair 
+		implemented using hashmap and hashtable
+		'''
 		print('\nDICTIONARY')
-
 		dct = {}
 		print(dct, type(dct))
 
