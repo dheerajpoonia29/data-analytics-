@@ -82,6 +82,9 @@ def pyDataType():
 		st2 = {'d','e','e','r','a','j'}
 		print(st1)
 		print(st2)
+		
+		st = set()
+		st.add(10)
 
 	def dictDT():
 		'''
